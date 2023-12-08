@@ -12,19 +12,20 @@ app.use(cors())
 app.use(express.json())
 
 //static files
-app.use(express.static(path.join(__dirname, './client/build/index.html')))
 
+app.use(express.static(path.join(__dirname, "./client/build")));
 
-app.get('*', (req,res)=>{
-    res.sendFile(path.join)
-})
-//route
-app.use('/api/v1/portfolio/',require('./routes/portfolioRoute'))
+//routes
+app.use("/api/v1/portfolio", require("./routes/portfolioRoute"));
+
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
+
 //port
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8080;
 
 //listen
-
-app.listen(PORT,() =>{
-    console.log(`server is running on ${PORT}`)
-})
+app.listen(PORT, () => {
+  console.log(`Server Runnning On PORT ${PORT} `);
+});
