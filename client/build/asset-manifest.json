@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73879434.css",
+    "main.js": "/static/js/main.a54964b8.js",
+    "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
+    "static/media/Contact.jpg": "/static/media/Contact.2ea914259f43a7c3fcff.jpg",
+    "static/media/ATS-Neel-Resume.pdf": "/static/media/ATS-Neel-Resume.13eb1e22c9be75458157.pdf",
+    "static/media/nmt.jpeg": "/static/media/nmt.a516256a28759003d17e.jpeg",
+    "index.html": "/index.html",
+    "main.73879434.css.map": "/static/css/main.73879434.css.map",
+    "main.a54964b8.js.map": "/static/js/main.a54964b8.js.map",
+    "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73879434.css",
+    "static/js/main.a54964b8.js"
+  ]
+}
